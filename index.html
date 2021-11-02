@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<title>Visit-Taveta</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="keywords" content="">
+		<meta name="description" content="">
+
+		<link rel="stylesheet" href="assets/css/animate.min.css">
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+		<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,700,800' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="assets/css/style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	</head>
+
+	<body>
+		<div class="preloader">
+			<div class="sk-spinner sk-spinner-rotating-plane"></div>
+		</div>
+
+		<nav class="navbar navbar-default navbar-fixed-top templatemo-nav" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="icon icon-bar"></span>
+						<span class="icon icon-bar"></span>
+						<span class="icon icon-bar"></span>
+					</button>
+					<a href="#" class="navbar-brand">VisitTaveta</a>
+				</div>
+				<div class="collapse navbar-collapse">
+					<ul class="nav navbar-nav navbar-right text-uppercase">
+						<li><a href="#home">Home</a></li>
+						<li><a href="#feature">Features</a></li>
+						<li><a href="#about">About</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<section id="home">
+			<div class="overlay">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-1"></div>
+						<div class="col-md-10 wow fadeIn" data-wow-delay="0.3s">
+							<h1 class="text-upper">Visit Taveta</h1>
+							<p class="white"> A place that enables you explore a hidden tourism town bordering TZ
+							</p>
+							<img src="assets/img/lakechala.jpg" class="img-responsive img-rounded" alt="home img">
+
+							<br>
+							<br>
+							<br>
+							<br>
+
+							<!-- link to the deployed site once done -->
+							<button class="button"><a href="https://github.com/kiminzajnr/MVP-Portfolio-Project">Lets GO NOW!</a></button>
+						</div>
+						<div class="col-md-1"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="feature">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 wow fadeInLeft" data-wow-delay="0.6s">
+						<h2 class="text-uppercase">currency conversion</h2>
+						<p>Fast Currency conversion into Kenya Shilling -before you visit that man in the street</p>
+					</div>
+					<div class="col-md-6 wow fadeInRight" data-wow-delay="0.6s">
+						<img src="assets/img/currencyconversion.png" class="img-responsive img-rounded" alt="feature img">
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="feature1">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+						<img src="assets/img/tavetaaccomodation.jpg" class="img-responsive img-rounded" alt="feature img">
+					</div>
+					<div class="col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+						<h2 class="text-uppercase">Accomodation booking</h2>
+						<p>Easy Accomodation booking after you schedule your visit</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="about">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 wow bounceIn">
+						<h2 class="text-uppercase">About</h2>
+					</div>
+					<p class="text-uppercase">information about important tourism rich areas like taveta is scarce online. i therefore think its important to bring such regions online for them to be noticed, hence the birth of visit taveta</p>
+					<br/>
+					<br/>
+					<br/>
+					<button class="button"><a href="https://github.com/kiminzajnr/MVP-Portfolio-Project">check out repo</button>
+					<br>
+					<br>
+					<a href="https://twitter.com/e_kiminza" class="fa fa-twitter"></a>
+					<a href="https://www.linkedin.com/in/erick-kiminza-25160b183/" class="fa fa-linkedin"></a>
+				</div>
+			</div>
+		</section>
+
+		<footer>
+			<div class="container">
+				<div class="row">
+					<p>Copyright © 2021 Erick @HolbertonSchool</p>
+				</div>
+			</div>
+		</footer>
+
+		<script src="assets/js/jquery.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+		<script src="assets/js/wow.min.js"></script>
+		<script src="assets/js/jquery.singlePageNav.min.js"></script>
+		<script>
+			$(window).load(function () {
+				$('.preloader').fadeOut(1000);
+			});
+
+			$(function () {
+				new WOW().init();
+				$('.templatemo-nav').singlePageNav({
+					offset: 70
+				});
+
+				$('.navbar-collapse a').click(function () {
+					$(".navbar-collapse").collapse('hide');
+				});
+			})
+		</script>
+	</body>
+
+</html>
