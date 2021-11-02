@@ -2,4 +2,5 @@
 
 ![img](assets/img/visit-taveta.png)
 
-**Demo** <https://jgmuchiri.github.io/simple-html-landing-page/>
+**Demo**  
+<https://kiminzajnr.github.io/VTLandingPage/>
